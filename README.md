@@ -22,9 +22,6 @@ Comes with lightweight example front-end script which uses the pool's AJAX API.
 * [Setting up Testnet](#setting-up-testnet)
 * [JSON-RPC Commands from CLI](#json-rpc-commands-from-cli)
 * [Monitoring Your Pool](#monitoring-your-pool)
-* [Donations](#donations)
-* [Credits](#credits)
-* [License](#license)
 
 
 #### Basic features
