@@ -7,7 +7,8 @@
 <script id="usersListTable" type="text/x-handlebars-template">
 	{{#each users}}
 	<tr>
-		<td><a href="./?wallet={{this.number}}">{{this.number}}</a></td>
+		<td><a href="./?wallet={{this.number}}">{{this.number}}</a></td> 
+<!--		<td><a href="./?wallet={{this.number}}">{{this.numberhidden}}</a></td> -->
 		<td data-sort="{{this.wallet.hashrate}}">{{this.readableHashrate}}</td>
 		<td data-sort="{{this.wallet.hashes}}">{{this.readableHashes}}</td>
 		<td data-sort="{{this.wallet.pending}}">{{this.readablePending}}</td>
@@ -25,7 +26,8 @@
 			if(wallets.hasOwnProperty(wallet)) {
 				var userData = wallets[wallet];
 				walletsArray.push({
-					number: wallet,
+					number: wallet,  
+<!--		                        numberhidden: wallet.substr(0,10)+'****'+wallet.substr(-10), -->
 					wallet: userData,
 					timeago: $.timeago(new Date(userData.lastShare * 1000).toISOString()),
 					readablePending: getReadableCoins(userData.pending),
