@@ -1,3 +1,5 @@
+<img src="http://pool.bitcoinn.biz/bitcoin-nova.png">
+
 Oficial POOL Bitcoin-N (bitcoin nova)
 ====================
 
