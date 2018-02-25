@@ -1,4 +1,4 @@
-Oficial POOL BitcoinN
+Oficial POOL Bitcoin-N (bitcoin nova)
 ====================
 
 High performance Node.js (with native C addons) mining pool for CryptoNote based coins such as BitcoinN, Bytecoin, DuckNote, Monero, QuazarCoin, Boolberry, Dashcoin, etc..
