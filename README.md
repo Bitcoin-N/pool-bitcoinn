@@ -1,6 +1,8 @@
 Oficial POOL Bitcoin-N (bitcoin nova)
 ====================
 
+http://pool.bitcoinn.biz/
+
 High performance Node.js (with native C addons) mining pool for CryptoNote based coins such as BitcoinN, Bytecoin, DuckNote, Monero, QuazarCoin, Boolberry, Dashcoin, etc..
 Comes with lightweight example front-end script which uses the pool's AJAX API.
 
